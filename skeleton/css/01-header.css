@@ -1,0 +1,123 @@
+/* PHASE 1: Header */
+
+/*Font Family: Roboto
+Font Weights: 300, 400, 700
+Font Sizes: 36px, 24px, 16px, 14px, 12px*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.header {
+  background-color: #f00;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  z-index: 1;
+}
+
+.header a {
+  display: block;
+  padding: 10px 20px;
+}
+
+.header-nav {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+
+.header-list {
+  float: right;
+}
+
+.header-list > li {
+  float: left;
+  border-left: 1px solid #ccc;
+}
+
+.header-list > li:hover {
+  background: #000;
+}
+
+.header-list > li > a {
+  text-decoration: none;
+  color: #fff
+}
+
+.header-logo {
+  border-width: 1px;
+  font-weight: 700;
+  float: left;
+  font-size: 16px;
+  border-right: 1px solid #ccc;
+}
+
+.header-logo:hover {
+  background: #000;
+}
+
+.header-logo > a {
+  text-decoration: none;
+  color: #fff
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.badge {
+	border-radius: 50%;
+  background: #000;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  width: 10px;
+  height: 10px;
+}
+
+.expandable:hover .badge {
+  background: #f00;
+}
+
+.expandable {
+  position: relative;
+}
+
+.nested-list {
+  display: none;
+  position: absolute;
+  top: 40px;
+  color: #000
+}
+
+/*.header-list > li.hover .nested-list > li {
+  display: block;
+}*/
+
+.expandable:hover .nested-list {
+  display: block;
+}
+
+.nested-list > li {
+  background: #fff;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  border-top: 0px;
+  padding: 10px 20px;
+  white-space: nowrap;
+}
+
+.nested-list > li:hover {
+  background: #eee;
+}
+
+.rounded-bottom-corners {
+  border-radius: 0px 0px 3px 3px;
+}

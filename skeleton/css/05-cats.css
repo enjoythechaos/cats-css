@@ -1,0 +1,41 @@
+/* PHASE 5: Cats */
+
+.content-header {
+  height: 200px;
+  position: absolute;
+  top: 0;
+  width: 900px;
+  background-color: #00f;
+  background-image: url("/Users/appacademy/Desktop/css-friends-gh-pages/shared/img/cats.jpg");
+  background-size: cover;
+  line-height: 1;
+}
+
+.content-header-text {
+  font-size: 36px;
+  color: #fff;
+  /* offset-x | offset-y | blur-radius | color */
+  /*text-shadow: 0px 0px 4px black;*/
+  text-shadow: #000 0 0 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  font-weight: 300;
+}
+
+.content-header-button {
+  font-size: 16px;
+  color: #000;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #fff;
+  padding: 12px 20px;
+}
+
+.content-header-button:hover {
+  background-color: #eee;
+}
